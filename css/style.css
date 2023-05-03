@@ -104,9 +104,6 @@ body {
 }
 
 .footer {
-  width: 100%;
-  height: 50px;
-  background-color: hsl(184, 63%, 37%);
   font-size: 11px;
   text-align: center;
   display: grid;
@@ -115,11 +112,11 @@ body {
 .footer .attribution a {
   font-family: var(--ff-bigShoulders);
   font-size: 15px;
-  color: hsl(228, 45%, 44%);
+  color: #000;
   transition: 0.7s;
 }
 .footer .attribution a:hover {
-  color: var(--very-light-gray);
+  color: hsl(228, 45%, 44%);
 }
 
 @media (min-width: 800px) {
