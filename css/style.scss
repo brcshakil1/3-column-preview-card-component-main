@@ -39,6 +39,8 @@ body {
 
     font-family: var(--ff-lexend);
     font-size: var(--fs-normal);
+
+    position: relative;
 }
 
 .container {
@@ -133,6 +135,8 @@ body {
     text-align: center; 
     display: grid;
     place-items: center;
+    position: absolute;
+    bottom: 5px;
     
     .attribution {
         a { 

@@ -29,6 +29,7 @@ body {
   background-color: var(--very-light-gray);
   font-family: var(--ff-lexend);
   font-size: var(--fs-normal);
+  position: relative;
 }
 
 .container {
@@ -108,6 +109,8 @@ body {
   text-align: center;
   display: grid;
   place-items: center;
+  position: absolute;
+  bottom: 5px;
 }
 .footer .attribution a {
   font-family: var(--ff-bigShoulders);
